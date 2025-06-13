@@ -1,0 +1,1353 @@
+                                                                             Experiment-1
+1.write a p.p to perform arithmatic operators without input function?
+
+a=10
+
+b=2
+
+print(a+b)
+
+print(a-b)
+
+print(a*b)
+
+print(a/b)
+
+print(a%b)
+
+print(a//b)
+
+print(a**b)
+
+
+o/p :
+
+
+12
+
+8
+
+20
+
+5.0
+
+0
+
+5
+
+100
+2.write a p.p to perform arithmetic operations using input function?
+a=eval(input("enter first number:"))
+
+b=eval(input("enter second number:")
+
+print(a+b)
+
+print(a-b)
+
+print(a*b)
+
+print(a/b)
+
+print(a%b)
+
+print(a//b)
+
+print(a**b)
+
+
+o/p :
+
+
+enter first number:14
+
+enter second number:2
+
+16
+
+12
+
+28
+
+7.0
+
+0
+
+7
+
+196
+
+3.write a p.p to perform comparision operator?
+a=10
+
+b=2
+
+print(a>b)
+
+print(a<b)
+
+print(a>=b)
+print(a<=b)
+
+o/p :
+True
+ 
+False
+
+True
+
+False
+
+
+4.write a python program to accept two values and performing swapping of two numbers?
+
+
+a= int(input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+temp=a
+a=b
+b=temp
+
+print("after swapping of two number are:")
+
+print("-------------------")
+
+print(" first value is:",a)
+
+print(" second value is:",b)
+
+o/p :
+enter first number:5
+
+enter second number:6
+
+after swapping of two number are:
+
+-------------------
+ 
+first value is: 6
+ 
+second value is: 5
+
+
+
+5.write a p.p to find area  and perimeter of rectangle?
+
+
+l=eval (input("enter the length of the rectangle:"))
+
+b=eval (input("enter the breadth of the rectangle:"))
+
+area=l+b
+
+perimeter=2*(l+b)
+
+print("area of the rectangle is:",area)
+
+print("perimeter of the rectangle is:",perimeter)
+
+
+
+o/p :
+
+enter the length of the rectangle:23
+
+enter the breadth of the rectangle:15
+
+area of the rectangle is: 38
+
+perimeter of the rectangle is: 76
+
+6.write a python program to find circumference of the circle?
+
+pi=3.14
+
+d=eval(input("enter the diameter of the circle"))
+
+r=d/2
+
+circumference=2*pi*r
+
+print("circumference of the circle for the given diameter is",circumference)
+
+
+o/p :
+enter the diameter of the circle10
+
+circumference of the circle for the given diameter is 31.400000000000002
+
+
+=== Code Execution Successful ===
+                                                                                        Experiment-2
+
+1.write a p.p to read your name,age and checks you're eligible for voting?
+name=input("Enter your name:")
+
+age=int(input("Enter your age:"))
+
+if age>=23:
+
+    print("Congratualations",name,"you are eligible to vote")
+    output :
+
+Enter your name:pivi
+
+Enter your age:23
+
+Congratualations pivi you are eligible to vote
+
+=== Code Execution Successful ===
+
+2.write a p.p to read a number and check the given number is even or odd?
+
+num=int(input("Enter any number:"))
+if num%2==0:
+    print("The given number",num,"is even")
+else:
+    print("The given number",num,"is odd")
+
+output :
+
+Enter any number:19
+
+The given number 19 is odd
+
+
+=== Code Execution Successful ===
+3.write a p.p to read a number and display the respective value in word format?
+num=int(input("Enter a number:"))
+if num==1:
+    print("one")
+elif num==2:
+    print("Two")
+elif num==3:
+    print("Three")
+elif num==4:
+    print("Four")
+elif num==5:
+    print("Five")
+elif num==6:
+    print("Six")
+elif num==7:
+    print("Seven")
+elif num==8:
+    print("Eight")
+elif num==9:
+    print("Nine")
+else:
+    print("Number out of range")
+
+output:
+Enter a number:23
+
+Number out of range
+
+
+=== Code Execution Successful ===
+4.write a p.p to check whether the given is in between 1to 100 using if_else?
+
+num=int(input("Enter any number:"))
+if num>=1 and num<=100:
+    print("The given number",num,"is in between 1 - 100")
+else:
+    print("The given number",num,"is not in between 1 - 100")
+
+output:
+Enter any number:90
+
+The given number 90 is in between 1 - 100
+Enter any number:500
+
+The given number 500 is not in between 1 - 100
+
+
+=== Code Execution Successful ===
+
+
+5.write a p.p to print numbers from 1 to 10 skipping 5 and breaking at 8?
+
+for i in range(1,21):
+    if i==3:
+        continue
+    if i==15:
+        break
+    print(i)
+output :
+1
+
+2
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+
+=== Code Execution Successful ===
+                                                                                              Experiment-3
+1.write a python program sum of the elements in a list?
+mylist=[10,2,3,7,0,8,34]
+
+sum=0
+
+for i in mylist:
+
+  sum=sum+i
+
+print("the sum is:",sum)
+   output:
+     the sum is: 64
+
+2.write a python program to accept string and converted into a list?
+s=input("enter the string:")
+
+print(s.split())
+    output:
+          enter the string:python is very easy programming language
+
+         ['python', 'is', 'very', 'easy', 'programming', 'language']
+
+3.write a python program to create empty list and store the elements?
+   mylist=[]
+
+n=int(input("enter any number:"))
+
+for x in range(n):
+   
+   num=int(input("enter a number:"))
+    
+   mylist.append(num)
+    
+print("my updated list is:",mylist)
+        output:
+             enter any number:5
+
+            enter a number:10
+
+           my updated list is: [10]
+
+             enter a number:20
+
+            my updated list is: [10, 20]
+
+            enter a number:30
+
+             my updated list is: [10, 20, 30]
+
+            enter a number:40
+
+           my updated list is: [10, 20, 30, 40]
+
+             enter a number:50
+
+           my updated list is: [10, 20, 30, 40, 50]
+
+
+4.write a python program to accessing and remove the elements from a list?
+l=[10,20,30,"milky",(10+20j),'true',1]
+
+print(l[3])
+
+print(l[-2])
+
+print(l[1:4])
+
+print(l)
+
+l.remove(30)
+
+print(l)
+
+output:
+milky
+
+true
+
+[20, 30, 'milky']
+
+[10, 20, 30, 'milky', (10+20j), 'true', 1]
+
+[10, 20, 'milky', (10+20j), 'true', 1]
+
+
+5.write a python program to find min and max,length of a list?
+l=[10,20,30,40,60,0,1]
+
+print(len(l))
+
+print(l)
+
+print(max(l))
+
+print(min(l))
+output:
+7
+
+[10, 20, 30, 40, 60, 0, 1]
+
+60
+
+0
+
+6.write a python program to accept N number and store them in list,then print the list without odd numbers in it.
+n=int(input("enter a value o0f n:"))
+
+mylist=[]
+
+for i in range(n):
+
+  num=int(input("enter a number:"))
+
+mylist.append(num)
+
+print("even numbers are")
+
+print("[",end=" ")
+
+for num in mylist:
+  
+  if num%2==0:
+        
+      print(num,end=",")
+ 
+  print("]")
+
+
+output:
+enter a value of n:5
+
+enter a number:10
+
+enter a number:15
+
+enter a number:20
+
+enter a number:25
+
+enter a number:33
+
+even numbers are
+
+[ 10,20]
+
+7.write a python program to remove specific element ,remove the list,copy the list into another list?
+l=[10,20,30,"milky",'true',0,(10+20j),1]
+
+print(l)
+
+x=l.copy()
+
+print(x)
+
+l.pop(3)
+
+print(l)
+
+del l[2]
+
+print(l)
+
+l.reverse()
+
+print(l)
+
+l.clear()
+
+print(l)
+
+output:
+[10, 20, 30, 'milky', 'true', 0, (10+20j), 1]
+
+[10, 20, 30, 'milky', 'true', 0, (10+20j), 1]
+
+[10, 20, 30, 'true', 0, (10+20j), 1]
+
+[10, 20, 'true', 0, (10+20j), 1]
+
+[1, (10+20j), 0, 'true', 20, 10]
+
+[]
+                                                                                                      Experiment-4
+1.write a python program to find GCD two numbers using function?
+def gcd(a,b):
+  
+  while b!=0:
+  
+      a,b=b,a%b
+      
+  return a
+     
+   num1=int(input("enter the first number:"))
+       
+ num2=int(input("enter the second number:"))
+     
+   result=gcd(num1,num2)
+       
+ print("the GCD of",num1,"and",num2,"is",result)
+output:
+enter the first number:18
+enter the second number:36
+the GCD of 18 and 36 is 18
+
+2.write a python program to find even or odd numbers using function?
+def check_even_odd(number):
+
+    if number%2==0:
+  
+       return "even"
+   
+   else:
+   
+     return "odd"
+      
+   num=int(input("enter a number:"))
+        
+ result=check_even_odd(num)
+        
+ print("the number is",result)
+  
+output:
+enter a number:8
+the number is even
+  
+3.write a python program to find factorial value of given number using function?
+def factorial(n):
+  
+    if n==0:
+      
+        return 1
+   
+ else:
+      
+    return n *factorial(n-1)
+   
+ num=int(input("enter a number:"))
+   
+ result=factorial(num)
+    
+print("the factorial of",num,"is",result)
+
+output:
+enter a number:5
+the factorial of 5 is 120
+4.write a python program to find sum of a list using function?
+def calculate_sum(numbers):
+
+    total=0
+ 
+   for num in numbers:
+ 
+       total+=num
+    
+      return total
+   
+       list=[]
+   
+     n=int(input("enter the number of elements in the list:"))
+  
+  for i in range(n):
+     
+      num=eval(input("enter element{}:",format(i+1)))
+    
+    list.append(num)
+      
+  result=calculate_sum(list)
+     
+   print("the sum of list is",result)
+output:
+enter the number of elements in the list:5
+enter the element 1:10
+enter the element 2:20
+enter the element 3:30
+enter the element 4:40
+enter the element 5:50
+the sum of list is 150
+5.write a python program to perform arithmetic operations using function?
+def add(x,y):
+
+    return x+y
+
+def subtract(x,y):
+  
+  return x-y
+
+def multiply(x,y):
+
+    return x*y
+
+def divide(x,y):
+
+    returnx/y
+ 
+ num1=float(input("enter the first number:"))
+ 
+ num2=float(input("enter the second number:"))
+ 
+ print("addition:",add(num1,num2))
+
+  print("subtraction:",subtract(num1,num2))
+
+  print("multiplication:",multiply(num1,num2))
+
+  print("division:",divide(num1,num2))
+
+output:
+enter the first number:10
+
+enter the second number:5
+
+addition: 15.0
+
+subtraction: 5.0
+
+multiplication: 50.0
+
+division: 2.0
+
+
+6.write a python program to find factorial value of given number using function?
+def factorial(n):
+
+    if n==0:
+   
+       return 1
+   
+   else:
+    
+      return n*factorial(n-1)
+   
+ num=int(input("enter a number:"))
+  
+  result=factorial(num)
+  
+  print("the factorial of",num,"is",result)
+
+output:
+enter a number:5
+the factorial of 5 is 120
+                                                                                         Experiment-5
+1.write a python  functions that creates and returns an object?
+class car:
+  
+  def_init_(self,brand,speed):
+      
+  self.brand=brand
+    
+    self.speed=speed
+     
+   def display(self):
+     
+       print(f"brand:{self.brand},speed:{self.speed}km/h")
+ 
+      def create_car():
+       
+         car 1=car("toyota",180)
+  
+             return car1
+   
+             my_car=create_car()
+        
+        my_car.display
+
+        output:
+brand:toyota,speed:180km/h
+
+2.write a function that takes a student object as an argument and points the student information?
+class student:
+    
+    def_init_(self,name,marks):
+ 
+   self.name=name
+   
+ self.marks=marks
+    
+   def print_student_info(student):
+ 
+       print(f"name:{student,name},marks:{student,marks}")
+  
+      s1=student("tillu",92)
+   
+     print_student_info(51)
+
+    output:
+Name:tillu,marks:92
+3.write a function thatreturns a circle object created with a given radius?
+class circle:
+
+    def_init_(self,radius):
+   
+     self.radius=radius
+      
+  def area(self):
+   
+         return 3.14* self.radius*self.radius
+   
+         def get_circle(r):
+           
+     return circle(r)
+      
+          c=get_circle(5)
+  
+              print("area of circles:",c.area())
+   
+   output:    
+area of circle:78.5
+4.write a function that returns a list of 3 books objects?
+class book:
+ 
+   def_init_(self,title):
+      
+  self.title=title
+  
+      def create_book_list():
+     
+       return[book("python 101"),book("ai basics"),book("data science")]
+   
+         books=create_book_list()
+ 
+           for b in books:
+         
+       print("book title:",b.title) 
+out put:
+book title:python101
+book title:ai basics
+book title:data sciences      
+        
+                                                          Experiment-7
+1.write a python program to find fibonacci series of numbers using recursive function?
+
+def fibonacci(number):
+ 
+   if(number==0):
+  
+      return 0
+   
+ elif number==1:
+    
+    return 1
+    
+else:
+   
+     return fibonacci(number-2)+fibonacci(number-1)
+  
+  number=int(input("please enter the fibonacci rang="))
+    
+  sum=0
+   
+ for num in range(number):
+   
+     print(fibonacci(num),end=' ')
+  
+      sum=sum+fibonacci(num)
+       
+ print("\n the sum of fibonacci series numbers=%d",sum)
+output:
+please enter the fibonacci number range=8
+0 1 1 2 3 5 8 1 3
+the sum of fibonacci series numbers=33
+
+2.write to find a factorial value of given number using recursive function?
+def factorial(n):
+ 
+   if n==0:
+  
+      return 0
+    
+elif n==1:
+  
+      return 1
+   
+ else:
+   
+     return n*factorial(n-1)
+   
+     n=int(input("enter any number:"))
+    
+    print("factorial value of n is:",factorial(n))
+output:
+enter any number:5
+factorial value of 5 is:120
+
+
+3. write a python program to the given string is palindrome or not?
+def pal(s):
+
+    s=s.lower()
+
+if len(s)<=1:
+
+   return true
+
+elif s[0]!=s[-1]:
+
+    return false
+
+else:
+
+    return pal(s[1:-1])
+
+myinput=input("enter a string:")
+
+if pal(myinput):
+
+    print(f"{myinput}is a palindrome:")
+
+else:
+ 
+   print(f"{myinput} is not palindrome:")
+output:
+enter a string:MADAM
+'MADAM' is a palindrome
+4.write a python program to gcd of two numbers using recursive function?
+def gcd(a,b):
+ 
+   if b==0:
+
+        return a
+    
+else:
+  
+     return gcd(b,a%b)
+
+x=input("enter the first integer:")
+
+y=input("enter the second integer:")
+
+if x is digit()and y is digit():
+
+    a=int(x)
+
+    b=int(y)
+ 
+   result=gcd(a,b)
+   
+ print("the gcd of{a}and{b} is:",result)
+
+else:
+ 
+   print("please enter valid integers:")
+output:
+enter the first integer:36
+entre second integer:18
+the gcd of 36 and 18 is:18
+                                                                              Experiment-8
+1.write a python to find random number between 1 to 10 using module?
+import random
+
+random_number=random.randint(1,10)
+
+print("random number:",random_number)
+output:
+random number: 6
+
+
+2.write a python program to find the square number using module?
+import datetime
+
+current_datetime=datetime.datetime.now()
+
+print("current date and time:",current_datetime)
+output:
+current date and time: 2025-05-28 06:43:43.838103
+
+
+3.write a python program to find the square number using module?
+import math
+
+number=25
+
+sqrt=math.sqrt(number)
+
+print("square root:",sqrt)
+output:
+square root:5.0
+
+4.write a python program to find the factorial value using module?
+import math
+
+factorial=math.factorial(5)
+
+print("factorial:",factorial)
+
+output:
+factorial:120
+5.write a python program to create a file and write some content,read the file data.
+file_path="example.txt"
+
+with open(file_path,"w")as file:
+
+    file.write("hello,world!")
+
+with open(file_path,"r")as file:
+ 
+     content=file.read()
+ 
+   print("file content:",content)
+output:
+file content:hello ,world!
+
+6.write a python program to convert lower case to uppercase using module?
+import string
+text="hello,world!"
+
+uppercase_text=text.upper()
+
+print("uppercase text:",uppercase_text)
+output:
+uppercase text: HELLO,WORLD!
+
+7.write a python program to generate random number between 1 to 10 using secret module?
+import secrets
+
+random_number=secrets.randbelow(10)+1
+
+print("cryptographically secure random number:",random_number)
+output:
+cryptographically secure random number: 9
+
+
+8.write a python program to impliment platform module?
+import platform
+
+system_name=platform.system()
+
+node_name=platform.processor()
+
+processor_name=platform.processor()
+
+print("system name:",system_name)
+
+print("node name:",node_name)
+
+print("processor name:",processor_name)
+output;
+system name:windows
+node name:AITS
+processor name:intel64 family 6 model151 stepping 5,genuinelntel.
+                                                                                                           Experiment-10
+
+1.write a python program to handle multiple exceptions?
+try:
+
+    num=int(input("enter a number:"))
+    
+    result=10/num
+ 
+   print("result:",result)
+
+    print("error:invalid input! please enter a valid number:")
+
+except zerodivisionerror:
+
+    print("error:division by zero!")
+output:
+enter a number:2
+
+result: 5.0
+2.write a python program to handle multiple expressions using else clause?
+try:
+ 
+   num=int(input("enter a number:"))
+ 
+   result=10/num
+
+except valueerror:
+
+    print("error:invalid input! please enter a valid number:")
+
+except zerodivisionerror:
+
+    print("error:division by zero!")
+
+else:
+
+    print("result:",result)
+output:
+enter a number:2
+
+result: 5.0
+
+3.write a python program to perform exceptions with final block?
+try:
+
+  file=open("myfile.txt","r")
+except io error:
+
+     print("error:unable to read the file!")
+
+finally:
+ 
+   file.close()
+OUTPUT:
+Traceback (most recent call last):
+
+  File "<main.py>", line 6, in <module>
+
+NameError: name 'file' is not defined
+
+
+4.write a python program to findout the given number is within range or not?
+try:
+
+    x=int(input("enter a number upto 100:"))
+
+    if x>100:
+  
+      raise valueError(x)
+
+except valueError as e:
+ 
+        print(x,"is out of allowed range")
+
+else:
+
+    print(x,"is within the allowed range")
+output:
+Enter a number up to 100: 123
+
+123 is out of allowed range
+
+5.write a python program for division zero error?
+try:
+
+    x=10/0
+
+except exception as e:
+ 
+       print("an error occured:",str(e))
+output:
+anError occured: division by zero.
+                                                                                                          Experiment-11
+1.write a p.p to merge the two dictionaries?
+d1={10:"python",20:"java"}
+
+d2={30:"c",40:"ruby"}
+
+d3=d1|d2
+
+print(d3)
+
+print(type(d3))
+  output:
+{10: 'python', 20: 'java', 30: 'c', 40: 'ruby'}
+
+<class 'dict'>
+
+
+=== Code Execution Successful ===
+2.write a p.p to perform iteration using dictionaries?
+d={'apple':5,'banana':10,'orange':8}
+
+for k in d:
+
+    print(k)
+  
+ for v in d.values():
+ 
+       print(v)
+   
+     for k,v in d.items():
+     
+       print(k,"---->",k)
+   output:
+apple
+
+5
+
+apple ---->apple
+
+banana ----> banana
+
+orange ----> orange
+
+10
+
+apple ----> apple
+
+banana ----> banana
+
+orange ----> orange
+
+8
+
+apple ----> apple
+
+banana ----> banana
+
+orange ----> orange
+
+banana
+
+5
+
+apple ----> apple
+
+banana ----> banana
+
+orange ----> orange
+
+10
+
+apple ----> apple
+
+banana ----> banana
+
+orange ----> orange
+
+8
+
+apple ----> apple
+
+banana ----> banana
+
+orange ----> orange
+
+orange
+
+5
+
+apple ----> apple
+
+banana ----> banana
+
+orange ----> orange
+
+10
+
+apple ----> apple
+
+banana ----> banan
+a
+orange ----> orange
+
+8
+
+apple ----> apple
+
+banana ----> banana
+
+orange ----> orange
+
+
+=== Code Execution Successful ===
+
+3.write a p.p to convert set into dictionary type?
+fruits={'apple','banana','orange'}
+
+fruits_dict={fruit:index for index ,fruit in enumerate (fruits)}
+
+print(fruits_dict)
+  output:
+{'apple': 0, 'banana': 1, 'orange': 2}
+
+
+=== Code Execution Successful ===
+4.write a p.p to delete multiples elements in a dictionary?
+
+d = {'apple': 5, 'banana': 10, 'orange': 8, 'mango': 15}
+kd = ['apple', 'banana']
+for k in kd:
+    if k in d:
+        del d[k]
+        print(d)
+output:
+{'banana': 10, 'orange': 8, 'mango': 15}
+
+{'orange': 8, 'mango': 15}
+=== Code Execution Successful ===
+5.how to perform arithmetic operation on the values of a dictionary?
+
+d1 = {'sub1': 80, 'sub2': 90, 'sub3': 70, 'sub4': 80}
+print(d1)
+s = sum(d1.values())  
+print(s)
+mx = max(d1.values()) 
+print(mx)
+mn = min(d1.values())  
+print(mn)
+cnt = len(d1.values())  
+print(cnt)
+output:
+{'sub1': 80, 'sub2': 90, 'sub3': 70, 'sub4': 80}
+
+320
+
+90
+
+70
+4
+
+
+=== Code Execution Successful ===
+                                                                                                 Experiment-12
+1.write  a p.p to perform polymorphism?
+
+class Animal:
+    def sound(self):
+        pass
+class Cat(Animal):
+    def sound(self):
+        print("Meow")
+class Dog(Animal):
+    def sound(self):
+        print("Woof")
+def make_sound(animal):
+    animal.sound()
+cat = Cat()
+dog = Dog()
+make_sound(cat)
+make_sound(dog)
+   output:
+     Meow
+
+    Woof
+
+
+=== Code Execution Successful ===
+
+2write a p.p to perform inheritance?
+class Shape:
+    def __init__(self, color):
+        self.color = color
+
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, color, radius):
+        super().__init__(color)
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius ** 2
+
+class Rectangle(Shape):
+    def __init__(self, color, width, height):
+        super().__init__(color)
+        self.width = width
+        self.height = height
+
+    def area(self):
+        return self.width * self.height
+
+circle = Circle("red", 5)
+rectangle = Rectangle("blue", 4, 6)
+
+print("circle area:", circle.area())
+print("rectangle area:", rectangle.area())
+      output:
+     circle area: 78.5
+
+     rectangle area: 24
+
+
+=== Code Execution Successful ===
+
+3.write a p.p to perform attributes and methods?
+class MyClass:
+    def __init__(self):
+        self.public_attribute = "I'm a public attribute"
+        self._protected_attribute = "I'm a protected attribute"
+        self.__private_attribute = "I'm a private attribute"
+
+    def public_method(self):
+        print("I'm a public method")
+
+    def _protected_method(self):
+        print("I'm a protected method")
+
+    def __private_method(self):
+        print("I'm a private method")
+
+obj = MyClass()
+
+print(obj.public_attribute)
+obj.public_method()
+
+print(obj._protected_attribute)
+obj._protected_method()
+
+print(obj._MyClass__private_attribute)
+obj._MyClass__private_method()
+    output:
+     I'm a public attribute
+
+    I'm a public method
+
+   I'm a protected attribute
+
+   I'm a protected method
+
+   I'm a private attribute
+
+  I'm a private method
+
+
+=== Code Execution Successful ===
+
+4.write a p.p to perform encapsulations?
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.account_number = account_number
+        self.balance = balance
+    def get_account_number(self):
+        return self.account_number
+    def get_balance(self):
+        return self.balance
+    def deposit(self, amount):
+        if amount > 0:
+            self.balance += amount
+            print("Deposit successful")
+        else:
+            print("Invalid amount for deposit")
+    def withdraw(self, amount):
+        if amount > 0 and amount <= self.balance:
+            self.balance -= amount
+            print("Withdrawal successful")
+        else:
+            print("Insufficient funds or invalid amount for withdrawal")
+account = BankAccount("1234567890", 1000)
+print("Account number:", account.get_account_number())
+print("Balance:", account.get_balance())
+account.deposit(500)
+account.withdraw(200)
+account.account_number = "9876543210"
+account.balance = 5000
+print("Account number:", account.get_account_number())
+print("Balance:", account.get_balance())
+     output:
+   Account number: 1234567890
+
+   Balance: 1000
+
+  Deposit successful
+
+  Withdrawal successful
+
+  Account number: 9876543210
+
+   Balance: 5000
+
+
+=== Code Execution Successful ===
+
+                                                                                                              
